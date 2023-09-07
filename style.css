@@ -1,0 +1,97 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 98%;
+    height: 100vh;
+    display: flex inline;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #e0f1e1, #0e5840);
+}
+
+.calculator {
+    border: 1px solid #717377;
+    padding: 20px;
+    border-radius: 16px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgba(138, 141, 148, 20);
+    background-color: #000000;
+
+}
+
+input {
+    width: 320px;
+    border: none;
+    padding: 24px;
+    margin: 10px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgbs(84, 84, 84, 0.0);
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+input::placeholder {
+    color: #ffffff;
+}
+
+button {
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    background: transparent;
+    color: #ffffff;
+    font-size: 20px;
+    box-shadow: -7px 5px 11px rgba(130, 196, 165, 0.9);
+    cursor: pointer;
+}
+
+.equalBtn {
+    background-color: #fb7c14;
+}
+
+.operator {
+    color: #000000;
+    background-color: #15fad4da;
+}
+
+#acButton {
+    color: white;
+    background-color: #fb7c14;
+}
+
+#delButton {
+    color: white;
+    background-color: #fb7c14;
+}
+
+.button operator {
+    color: #fffdfd;
+    background-color: aqua;
+}
+
+footer {
+    color: #3b3636;
+    padding: 30px;
+    position: fixed;
+    bottom: 0;
+    left: 30px;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    text-align: left;
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap'); */
