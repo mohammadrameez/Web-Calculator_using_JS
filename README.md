@@ -11,7 +11,7 @@ Basic arithmetic operations:
 - addition
 - subtraction
 - multiplication
--  division
--  Square
--   square root 
--   factorial calculations
+- division
+- Square
+- square root 
+- factorial calculations
